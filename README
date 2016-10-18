@@ -6,7 +6,7 @@ The name of this file is SensorFusion.cs and it can be easily incorprated in oth
 
 A script in Matlab is also provided to calculate the values for Hard-Iron and Soft-Iron calibration of magnetometer data.
 
-The windows application is a simple example of an app able to retrieve data from the Arduino. It is capable of saving data in text files that can be later used on the Matlab script.
+The windows application - IMUApp - is a simple example of an app able to retrieve data from the Arduino. It is capable of saving data in text files that can be later used on the Matlab script.
 It also has the functionality to choose a Sensor Fusion algorithm to control the 3D animation.
 
 As an example, it was used the LSM9DS0 breakout board from Adafruit which contains a 3D accelerometer, 3D gyroscope and 3D magnetometer. 
