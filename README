@@ -1,5 +1,13 @@
-This repository is intended to those who want to use Inertial Sensors with Arduino and implment Sensor Fusion Algorithms.
+This repository is intended for those who want to understand Sensor Fusion algorithms to estimate orientation from Inertial Sensors.
 
-As an example, it was used the LSM9DS0 breakout board from Adafruit which contains a 3D accelerometer, 3D gyroscope and 3D magnetometer.
+It was developed a class in C# that implements several Sensor Fusion algorithms: Extended Kalman Filter, Gradient Descent method, Gauss-Newton method and Explicit Complementary Filter. 
+It also implements utilitary functions for Quaternion Math and several Gravity Removal algorithms.
+The name of this file is SensorFusion.cs and it can be easily incorprated in other projects.
 
+A script in Matlab is also provided to calculate the values for Hard-Iron and Soft-Iron calibration of magnetometer data.
+
+The windows application is a simple example of an app able to retrieve data from the Arduino. It is capable of saving data in text files that can be later used on the Matlab script.
+It also has the functionality to choose a Sensor Fusion algorithm to control the 3D animation.
+
+As an example, it was used the LSM9DS0 breakout board from Adafruit which contains a 3D accelerometer, 3D gyroscope and 3D magnetometer. 
 This board was communicating with an Arduino Leonardo via I2C.
