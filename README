@@ -2,6 +2,4 @@ This repository is intended to those who want to use Inertial Sensors with Ardui
 
 As an example, it was used the LSM9DS0 breakout board from Adafruit which contains a 3D accelerometer, 3D gyroscope and 3D magnetometer.
 
-This board was communicating with an Arduino Mega via I2C. 
-
-A Sensor Fusion Library was also created to allow developers to implement Sensor Fusion algorithms directly on the Arduino.
+This board was communicating with an Arduino Leonardo via I2C.
